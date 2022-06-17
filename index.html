@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- bootstrap css -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!-- personal  css -->
+<link rel="stylesheet" href="./css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container px-3">
+    <h1 class="text-center text-decoration-underline">addUP Assignment</h1>
+    <br>
+    <p><b>View answer in console...</b></p>
+
+    <p class="text-decoration-underline"><b>1. The first answer is calculated using a loop.</b></p>
+
+    <p>// loop addUP <br>
+
+        let array = [1, 2, 3, 4];<br>
+        let sum = 0;<br>
+        
+        for (let i = 0; i < array.length; i++) {<br>
+            sum += array[i];<br>
+        }<br>
+        console.log(sum);<br>
+    <b>output is 10</b></p>
+
+    <p class="text-decoration-underline"><b>2. The second answer is calculated using the reduce array method.</b></p>
+
+<p>// reduce addUP<br>
+
+    const numbers = [1, 2, 3, 4];<br>
+    
+    function sum1( c, n) {<br>
+      return c + n;<br>
+    }<br>
+    
+    let sum2 = numbers.reduce(sum1);<br>
+    console.log(sum2);<br>
+<b>output is 10</b></p>
+    
+</div>
+  
+
+
+
+
+    <!-- js links -->
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- personal js -->
+    <script src="./java/code.js"></script>
+
+</body>
+</html>
